@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 		,glue={"stepDefinition"}
 		,plugin={"html:target/pension-age-report",
 				"json:target/cucumber.json",
-				 "com.infostretch.qmetrytestmanager.result.TestExecution"
+		"com.infostretch.qmetrytestmanager.result.TestExecution"}
 		)
  
 public class TestRunner {
