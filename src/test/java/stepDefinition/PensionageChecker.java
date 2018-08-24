@@ -19,7 +19,7 @@ public class PensionageChecker
 	@Given("^User navigates to \"(.*?)\"$")
 	public void user_navigates_to(String Url) throws Throwable  
 	{
-		System.setProperty("webdriver.chrome.driver","chromedriver_win32/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromedriver.exe");
 		driver = new ChromeDriver(); 	
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
         driver.get(Url);
